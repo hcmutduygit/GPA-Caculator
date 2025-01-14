@@ -2,7 +2,7 @@ import openpyxl
 from openpyxl import load_workbook
 import xlsxwriter
 import pandas as pd
-path = "/home/feduydora/User/GPA/GPA.xlsx"
+path = "GPA.xlsx"
 wb = openpyxl.load_workbook(path)
 sheet = wb.active
 workbook = xlsxwriter.Workbook(path)
